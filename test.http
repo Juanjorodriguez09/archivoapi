@@ -1,0 +1,19 @@
+### Obtener imagen
+GET http://localhost:8080/apiarchivos/imagen/imagen3
+Accept: image/jpeg
+
+### Obtener PDF
+GET http://localhost:8080/apiarchivos/pdf/ejemplo
+Accept: application/pdf
+
+### Obtener HTML
+GET http://localhost:8080/apiarchivos/html/index
+Accept: text/html
+
+### Obtener XML
+GET http://localhost:8080/apiarchivos/xml/datos
+Accept: application/xml
+
+### Obtener JSON
+GET http://localhost:8080/apiarchivos/json/config
+Accept: application/json
